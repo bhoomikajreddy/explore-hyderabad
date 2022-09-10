@@ -44,6 +44,6 @@ function SlideShow() {
 
 function reply()
 {
-    var m = alert('You are already in About Us page');
+    var m = alert('You are already in Our Team page');
     document.getElementById('button').value = m;
 }

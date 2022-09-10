@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="./aboutus.css">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="./ourteam.css">
 </head>
 
 <body>
@@ -52,19 +52,26 @@
                 <span class="dots" onclick="currentSlide(2)"></span>
                 <span class="dots" onclick="currentSlide(3)"></span>
             </div>
+            <table>
+                <tr>
+                    <th>Sno.</th>
+                    <th>Team Members</th>
+                    <th></th>
+                </tr>
+            </table>
             <div id="cont">
                 <div id="items">
                     <div id="aboutus">
                         <h2>About Us</h2>
                         <p>Just over a year ago, we became fascinated by the idea of discovering all the places in Hyderabad.What if any new person can know about Hyderabad on their own?</p>
-                        <div><button id="button" onclick="reply()">Learn more</button></div>
+                        <div><a href="aboutus.html" target="_blank"><button id="button">About Us</button></a></div>
                     </div>
                 </div>
                 <div id="items">
                     <div id="ourteam">
                         <h2>Our Team</h2>
                         <p>We're optimistic for the future where the people live healthier, more informed, and more creative.</p>
-                        <div><a href="ourteam.html" target="_blank"><button id="button">Our Team</button></a></div>
+                        <div><button id="button" onclick="reply()">Learn more</button></div>
                     </div>
                 </div>
                 <div id="items">
@@ -81,7 +88,7 @@
             </div>
         </div>
     </div>
-    <script src="./aboutus.js"></script>
+    <script src="./ourteam.js"></script>
 </body>
 
 </html>
