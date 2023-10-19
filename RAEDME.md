@@ -1,0 +1,1 @@
+This is a Job Portal created by using HTML and CSS for frontend and PHP and XAMPP server for backend.

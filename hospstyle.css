@@ -10,7 +10,7 @@ body{
 }
 .topcontainer{
   display: flex;
-
+  padding-right: 10%;
 }
   .container{
     /* background-color: darkgrey; */
@@ -120,7 +120,7 @@ body{
   background-color: lightcyan;
   border: 2px solid green;
   width: 20%;
-  padding:5px;
+  padding: 5px;
   border-radius: 10px;
   position:fixed;
   margin-left: 80%;
@@ -152,7 +152,7 @@ body{
 {
     background-color: black;
     color: white;
-    min-height: 50px;
+    min-height: 75px;
     border: 1px solid transparent;
     padding: 0px;
 }
@@ -172,6 +172,11 @@ body{
 {
     float:right;
     padding: 15px 15px;
+}
+#sl1
+{
+    background-color: black;
+    border-color: #000;
 }
 #bt
 {
@@ -196,3 +201,4 @@ body{
     font-size: 15px;
     text-align: center;
 }
+

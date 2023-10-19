@@ -43,7 +43,7 @@ body{
     font-weight: bold;
     background-color: black;
 }
-/* #content
+#content
 {
     min-height: 600px;
 }
@@ -83,7 +83,7 @@ body{
     font-size: 18px; 
     border-radius: 6px;
 
-} */
+}
 #txt
 {
     text-align: center;
@@ -107,7 +107,23 @@ body{
     float:left;  
     margin-left:1%;
 }
+#items1
+{
+    width:45%; 
+    display: block; 
+    padding: 4px; 
+    margin-bottom: 20px;
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    float:left;  
+    margin-left:8%;
+}
 #items:hover
+{
+    box-shadow: 5px 5px 5px darkgrey;
+}
+#items1:hover
 {
     box-shadow: 5px 5px 5px darkgrey;
 }
@@ -140,4 +156,22 @@ body{
     padding: 15px;
     font-size: 15px; 
     text-align: center;
+}
+#items #thumbnail{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #items:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
+#items1 #thumbnail{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #items1:hover{
+    transform:scale(1.1);
+    z-index: 2;
 }
